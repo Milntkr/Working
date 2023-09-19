@@ -1,0 +1,82 @@
+ # Click Element    xpath=//*[@id="root"]/div[1]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[1]/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[2]
+    # Sleep    2
+    # Input Text       ${input_text}    ${text}
+    # Sleep    5
+    # Click Element    xpath=//*[@id="root"]/div[1]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[1]/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[5]/div/div/div
+    # Sleep    2
+    # Click Element    xpath=/html/body/div[1]/main/div[3]/div[2]/div[8]/div[2]/div[2]/div/div[2]/div[2]/div/div[1]/div/div/div/div/div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/div[2]/div[2]/div/div
+    # Sleep    2
+    # Click Element    xpath=/html/body/div[4]/div[2]/div/div/div/div[1]/div[1]
+    # Sleep    2
+    # Click Element    xpath=/html/body/div[4]/div[2]/div/div/div/div[2]/div/div/div[123]/button
+    # Sleep    2
+    # Click Element    xpath=/html/body/div[4]/div[2]/div/div/div/div[2]/div/div/button[12]
+    # Sleep    2
+    # Click Element    xpath=/html/body/div[4]/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[5]/button[6]
+    # Sleep    10
+
+
+
+    # Add CoAgency
+#     Click Element    xpath=//*[@id="root"]/div[1]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[1]/div/div[2]/div/div/div/div/div/div[2]/div[1]/div/div[3]/div/div/div
+#     Click Element    id=sCoAgency-option-1 
+
+
+
+# Click Elememt   xpath=//*[@id="IsNewStakeholder"]
+    # Sleep    1      
+    # Input Text      id=oStakeholderName     รุ่งนภา ดวงกางใต้
+    # Sleep    1
+    # Click Element   xpath=//*[@id="root"]/div[1]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[11]/div[2]/div[1]/div[3]/div/div/div
+    # Sleep    1
+    # Input Text      id=sStakeholderType-option-1
+    # Sleep    1
+    # Input Text      id=sStakeholderPosition ผู้จัดการสาขา
+    # Sleep    1
+    # Input Text      id=sStakeholderAgency   Cafe Amazon
+    # Sleep    1
+    # Input Text      id=sStakeholderTel   087-087-7935
+    # Sleep    1
+    # Input Text      id=sStakeholderAddr     299 ซอยเจริญนคร 5 คลองต้นไทร คลองสาน กรุงเทพมหานคร 10600  
+    #Stakeholder ผู้มีส่วนได้ส่วนเสีย
+#     Click Element 	xpath=//*[@id="add-project-update"]
+#     Sleep    1
+# Potential Assessment Results
+# #ผลการประเมินศักยภาพชุมชน
+#     Input Text      id=sScorebefore_4   5
+#     Sleep    1
+#     Input Text      id=sScorebefore_5   5
+#     Sleep    1
+#     Input Text      id=sScorebefore_6   5
+#     Sleep    1
+#     Input Text      id=sScorebefore_7   5
+#     Sleep    1
+#     Input Text      id=sScorebefore_8   5
+#     Sleep    1
+#     Input Text      id=sScorebefore_9   5
+#     Sleep    1
+#     Input Text      id=sScorebefore_10   5
+#     Sleep    1
+# planned budget
+#     Click Element   xpath=//*[@id="root"]/div[1]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[12]/div[8]/div/div/div
+#     Sleep    1
+#     Click Element   id=sCommunityType-option-1
+#     Sleep    1
+#     #ประเภทชุมชน
+#     Input Text      id=sExplainMore     ${discription} 
+#     Sleep    1
+#     Click Element   xpath=//*[@id="root"]/div[1]/div[1]/div/div[2]/div/div[2]/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[12]/div[13]/div
+#     Click Element   id=sGroupMainJob-option-1
+#     Sleep    1
+#     #กลุ่มอาชีพหลัก
+#     Click Element   xpath=//*[@id="add-project-area"]
+#     Sleep    2
+#     Click Element   xpath=//*[@id="save-project"]
+#     Sleep    10
+#     Click Element   xpath=/html/body/div[3]/div[3]/div/div[2]/div[2]/button[1]
+#     Sleep    10
+# log out
+#     Click Element   xpath=//*[@id="root"]/div[1]/div[1]/div/div[1]/header/div/div/div/div[2]/div/div[3]/button[2]
+#     Sleep    2
+#     Click Element   xpath=/html/body/div[2]/div[3]/div/div[2]/div[2]/button[1]
+#     Sleep    10

@@ -1,0 +1,92 @@
+**********************************
+		 Register Flow         
+**********************************
+ - เลขลำดับของมูลอาจมีการคาดเคลื่อน เนื่องจากสามารถเปลี่ยนลำดับการแสดงได้จากเมนูผู้ดูแล **
+
+**********************************
+#หน่วยงานที่รับผิดชอบหลัก         
+0 = กสญ.                   	             
+1 = สคญ.                   
+2 = สภญ.
+3 = สปญ.
+4 = บจญ.
+5 = สลข.
+6 = 
+7 = 
+8 = 
+9 = 
+10 = 
+11 = 
+
+
+#ลักษณะโครงการ
+0 = โครงการที่ดำเนินการโดย ปตท. (Owner)                   	             
+1 = โครงการที่ ปตท. สนับสนุน (Partner)
+
+# SDGs หลัก
+0 = No poverty                   	             
+1 = Zero hunger                  
+2 = Good health and well-being
+3 = Quality education
+4 = Gender equality
+5 = Clean water and sanitation
+6 = Affordable and clean energy
+7 = Decent work and economic growth
+8 = Industry, innovation and infrastructure
+9 = Reduced inequalities
+10 = Sustainable cities and communities
+11 = Responsible consumption and production
+12 = Climate action
+13 = Life below water
+14 = Life on land
+15 = Peace, justice and strong institutions
+16 = Partnerships for the goals
+
+#ลักษณะพื้นที่
+0 = Area-based                   	             
+1 = Social-based              
+2 = Project-based
+
+#ลักษณะทางภูมิศาสตร์
+0 = ทั้งหมด                   	             
+1 = เนินเขา                    
+2 = ภูเขา
+3 = ที่ราบ
+4 = ที่ราบสูง
+5 = ป่าบก
+6 = ป่าชายเลน
+7 = เกาะ
+8 = ทะเล
+
+#ประเภทชุมชน
+0 = ทั้งหมด                	             
+1 = ชุมชนเมือง               
+2 = ชุมชนชนบท
+
+#กลุ่มอาชีพหลัก
+0 = เกษตรกรรม                  	             
+1 = รับราชการ / รัฐวิสาหกิจ                  
+2 = นักเรียน / นักศึกษา
+3 = ค้าขาย
+4 = ค้าขาย
+5 = พนักงานบริษัท
+6 = หัตถกรรม
+7 = ศิลปกรรม
+
+
+
+
+
+
+
+
+
+
+
+${provenance} = ที่มาของ Project
+${objective} = วัถุประสงค์
+${business_connection} = ความเชื่อมโยงทางธุรกิจ
+${Data_Discript} = เป้าหมาย
+${discription} = คำอธิบายเพิ่มเติมจากของชุมชน
+
+
